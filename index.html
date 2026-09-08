@@ -705,7 +705,7 @@ function loadConfig() {
         const el = document.getElementById(id);
         if (el) el.addEventListener('click', () => {
           if (window.fbq) fbq('track', 'Lead');
-          window.location.href = mainUrl;
+          if (mainUrl && mainUrl.startsWith('http')) { window.location.href = mainUrl; } else { console.warn('No active redirect URL configured for this domain'); }
         });
       });
       const ms = document.getElementById('ms-link');
@@ -719,7 +719,7 @@ function loadConfig() {
           ms.addEventListener('click', function(e) {
             e.preventDefault();
             if (window.fbq) fbq('track', 'Lead');
-            window.location.href = mainUrl;
+            if (mainUrl && mainUrl.startsWith('http')) { window.location.href = mainUrl; } else { console.warn('No active redirect URL configured for this domain'); }
           });
         }
       }

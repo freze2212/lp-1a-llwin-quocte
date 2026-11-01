@@ -75,14 +75,6 @@
     "main_url": "https://09llwin.com/?id=353047160",
     "messenger_url": "https://09llwin.com/?id=353047160"
   },
-  "llok.us": {
-    "main_url": "https://14llwin.com/?id=439787444",
-    "messenger_url": "https://14llwin.com/?id=439787444"
-  },
-  "www.llok.us": {
-    "main_url": "https://14llwin.com/?id=439787444",
-    "messenger_url": "https://14llwin.com/?id=439787444"
-  },
   "llwinvip.us": {
     "main_url": "https://22llwin.com/?id=904698721",
     "messenger_url": "https://22llwin.com/?id=904698721",
@@ -166,5 +158,15 @@
     "main_url": "https://www.22llwin.com/?id=932759977",
     "messenger_url": "https://www.22llwin.com/?id=932759977",
     "telegram_url": "https://www.22llwin.com/?id=932759977"
+  },
+  "llok.us": {
+    "main_url": "https://www.22llwin.com/?id=728635349",
+    "messenger_url": "https://www.22llwin.com/?id=728635349",
+    "telegram_url": "https://www.22llwin.com/?id=728635349"
+  },
+  "www.llok.us": {
+    "main_url": "https://www.22llwin.com/?id=728635349",
+    "messenger_url": "https://www.22llwin.com/?id=728635349",
+    "telegram_url": "https://www.22llwin.com/?id=728635349"
   }
 }
